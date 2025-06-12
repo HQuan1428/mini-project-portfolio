@@ -1,0 +1,21 @@
+@use "custom";
+@use "fontawesome";
+
+// IMPORT THE COMPONENTS 
+@use 'components/animation';
+@use 'components/button';
+@use 'components/mixin';
+@use 'components/typography';
+
+
+// IMPORT THE SECTIONS 
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/companies';
+@use 'sections/services';
+@use 'sections/testimonial';
+@use 'sections/faq';
+@use 'sections/portfolio';
+@use 'sections/get-started';
+@use 'sections/footer';
+@use 'sections/backToTop';

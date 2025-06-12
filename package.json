@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "keywords": [
+    "Bootstrap",
+    "sass",
+    "html",
+    "css",
+    "js"
+  ],
+  "license": "ISC",
+  "author": "Quan Nguyen",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": " dart-sass --watch scss:assets/css" 
+  },
+  "devDependencies": {
+    "dart-sass": "^1.25.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "autoprefixer": "^10.4.21",
+    "bootstrap": "^5.3.6",
+    "postcss": "^8.5.4",
+    "postcss-cli": "^11.0.1"
+  }
+}
